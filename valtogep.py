@@ -6,7 +6,7 @@ level = st.slider("válassz egy számot", 1, 16)
 st.text(format(2**level))
 
 
- hatvany = {
+data = {
    'x' : [i**2 for i in range(hatvanykitevo)]}
 
 dataframe = pd.DataFrame(data)
