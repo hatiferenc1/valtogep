@@ -7,11 +7,10 @@ st.text(format(2**level))
 
 
 
-
 data = {
-   'x' : [i**2 for i in range(hatvanykitevo)]}
+   'x' : [i**2 for i in range(level)]}
 
-dataframe = pd.DataFrame(level)
+dataframe = pd.DataFrame(data)
 st.write('This is a line_chart.')
 st.line_chart(dataframe)
 
